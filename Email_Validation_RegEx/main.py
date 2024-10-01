@@ -14,3 +14,6 @@ if re.search(email_condition,user_emai):
   print("Right Email")
 else:
   print("wrong Email")
+
+
+# note: isme mene regex library ka use kiya he jo regex me hume ek hi line me email validation kar sakte he jo upar kiya he.
