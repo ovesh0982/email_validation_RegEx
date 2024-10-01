@@ -7,4 +7,10 @@ print("Email_validation_RegEx")
 
 
 import re
-email_condition = "^[a-z]+[\._]"
+email_condition = "^[a-z]+[\._]?[a-z 0-9]+[@]\W+[.]\w{2,3}$"
+user_emai = input("Enter your Email: ")
+
+if re.search(email_condition,user_emai):
+  print("Right Email")
+else:
+  print("wrong Email")
